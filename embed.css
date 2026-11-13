@@ -1,0 +1,79 @@
+.embedded-play { color-scheme: light; background: #f5f7f6; }
+.embedded-play body { background: #f5f7f6; color: #172522; --paper: #172522; --ink: #f5f7f6; --muted: #62706d; --line: #d3ddda; --lime: #087f75; }
+.embedded-play .topbar, .embedded-play .site-footer, .embedded-play .play-intro, .embedded-play .play-results { display: none; }
+.embedded-play .play-main { max-width: none; padding: 22px; }
+.embedded-play .play-layout { background: #fff; }
+.embedded-play .play-main .stage-column { padding: 20px; }
+.embedded-play .play-main .stage-topline { height: 40px; font-size: 11px; }
+.embedded-play .play-main .stage-overlay { font-size: 14px; }
+.embedded-play .play-main .overlay-ring { width: 60px; height: 60px; }
+.embedded-play .play-main .stage-tag span { font-size: 10px; }
+.embedded-play .play-main .fullscreen-button { width: 40px; height: 40px; }
+.embedded-play .play-main .timeline-row { grid-template-columns: 48px 1fr 48px; font-size: 11px; }
+.embedded-play .play-main .transport-buttons button { min-width: 44px; height: 42px; }
+.embedded-play .play-main .transport-buttons .transport-primary { width: 48px; }
+.embedded-play .play-main .transport-buttons .random-button { font-size: 12px; }
+.embedded-play .play-main .speed-control { font-size: 12px; }
+.embedded-play .play-main .speed-control select { padding: 9px 10px; font-size: 12px; }
+.embedded-play .play-main .runtime-note { padding: 14px; }
+.embedded-play .play-main .runtime-note p { font-size: 12px; }
+.embedded-play .play-main .control-panel .panel-section { padding: 24px 22px; }
+.embedded-play .play-main .panel-heading { gap: 12px; margin-bottom: 18px; }
+.embedded-play .play-main .panel-heading > span { font-size: 13px; }
+.embedded-play .play-main .panel-heading .eyebrow { font-size: 10px; }
+.embedded-play .play-main .panel-heading h2 { font-size: 16px; }
+.embedded-play .play-main .mode-switch { gap: 7px; }
+.embedded-play .play-main .mode-button { min-height: 64px; padding: 10px; }
+.embedded-play .play-main .mode-button strong { font-size: 12px; }
+.embedded-play .play-main .mode-button span { font-size: 9px; }
+.embedded-play .play-main .panel-hint { font-size: 11px; }
+.embedded-play .play-main .case-list { max-height: 310px; gap: 6px; }
+.embedded-play .play-main .case-option { grid-template-columns: 34px 1fr auto; min-height: 50px; gap: 11px; padding: 8px 10px; }
+.embedded-play .play-main .case-kind { width: 29px; height: 29px; font-size: 11px; }
+.embedded-play .play-main .case-copy strong { font-size: 12px; }
+.embedded-play .play-main .case-copy small { font-size: 10px; }
+.embedded-play .play-main .case-state { font-size: 10px; }
+.embedded-play .play-main .metrics-section { padding: 22px; }
+.embedded-play .play-main .metrics-section > .eyebrow { margin-bottom: 14px; font-size: 10px; }
+.embedded-play .play-main .metric-grid { gap: 14px 10px; }
+.embedded-play .play-main .metric-cell span { font-size: 10px; }
+.embedded-play .play-main .metric-cell strong { font-size: 13px; }
+.embedded-play .play-main .keyboard-hint { gap: 8px; padding: 16px 22px; font-size: 10px; }
+.embedded-play .play-main .keyboard-hint kbd,
+.embedded-play .play-main .keyboard-hint small { font-size: 10px; }
+.embedded-play .play-main .keyboard-hint kbd { min-width: 25px; }
+.embedded-play .mode-button, .embedded-play .case-option, .embedded-play .speed-control select { background: #edf2ef; }
+.embedded-play .case-copy small, .embedded-play .panel-hint, .embedded-play .metric-cell span { color: #62706d; }
+.embedded-play .panel-heading h2, .embedded-play .case-copy strong, .embedded-play .metric-cell strong { color: #172522; }
+.embedded-play .live-grid { grid-template-columns: minmax(0, 1fr) 270px; gap: 16px; }
+.embedded-play .live-panel, .embedded-play .live-warning { background: #fff; }
+.embedded-play .live-panel { padding: 14px; }
+.embedded-play .live-viewport-wrap { min-height: 260px; }
+.embedded-play .live-field, .embedded-play .live-warning ul, .embedded-play .live-status { color: #52635c; }
+.embedded-play .live-field select { background: #edf2ef; color: #172522; }
+.embedded-play .live-log { background: #edf2ef; color: #52635c; max-height: 90px; }
+.embedded-play .live-actions { gap: 6px; }
+.embedded-play .button { border: 1px solid #d3ddda; border-radius: 4px; cursor: pointer; }
+.embedded-play .button-lime { color: #fff; }
+.embedded-play .live-controls h3 { font-size: 12px; }
+.embedded-play .live-warning > p:last-child { color: #62706d; }
+@media (max-width: 700px) {
+  .embedded-play .play-main { padding: 10px; }
+  .embedded-play .play-layout, .embedded-play .live-grid { grid-template-columns: minmax(0, 1fr); min-width: 0; }
+  .embedded-play .play-main .stage-column,
+  .embedded-play .play-main .control-panel { min-width: 0; }
+  .embedded-play .play-main .stage-column { padding: 12px; }
+  .embedded-play .play-main .stage-topline { height: auto; flex-wrap: wrap; gap: 5px 10px; font-size: 9px; }
+  .embedded-play .play-main .transport-row { flex-wrap: wrap; gap: 12px; }
+  .embedded-play .play-main .mode-switch { grid-template-columns: minmax(0, 1fr); }
+  .embedded-play .play-main .mode-button { display: flex; align-items: center; justify-content: space-between; min-height: 48px; }
+  .embedded-play .play-main .mode-button span { margin-top: 0; }
+  .embedded-play .play-main .control-panel .panel-section { padding: 20px 16px; }
+  .embedded-play .play-main .case-list { display: grid; grid-template-columns: 1fr; max-height: none; }
+  .embedded-play .play-main .case-option { grid-template-columns: 32px minmax(0, 1fr); }
+  .embedded-play .play-main .case-copy { min-width: 0; overflow-wrap: anywhere; }
+  .embedded-play .play-main .keyboard-hint { flex-wrap: wrap; }
+  .embedded-play .live-viewport-wrap { min-height: 0; }
+  .embedded-play .button { gap: 8px; padding: 0 12px; }
+  .embedded-play .control-panel { border-left: 0; }
+}

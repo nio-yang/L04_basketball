@@ -1,0 +1,196 @@
+{
+  "schema": 1,
+  "policy": "L04 Mimic HOI Student Depth",
+  "checkpoint": "assets/hoi_student_eval_v61_20261101/depth_noaux_293_3000.pt",
+  "checkpoint_sha256": "c3117e3351b1365f5f249e778e710068e77056f138a7b2297ed6651f353e7440",
+  "task": "LimxLoco-Mimic-HOI-Student-Depth-L04-Parallel",
+  "observation_dim": 7898,
+  "action_dim": 27,
+  "recurrent": {
+    "type": "gru",
+    "layers": 1,
+    "hidden_size": 256
+  },
+  "student_observation": {
+    "arm": "depth",
+    "student_terms": [
+      "base_ang_vel",
+      "projected_gravity",
+      "joint_pos",
+      "joint_vel",
+      "last_action",
+      "incoming_type",
+      "depth_portrait"
+    ],
+    "teacher_terms": [
+      "base_ang_vel",
+      "joint_pos",
+      "joint_pos_ref",
+      "joint_vel",
+      "joint_vel_ref",
+      "last_action",
+      "projected_gravity",
+      "rotation_ref",
+      "teacher_ball_state",
+      "teacher_reference_command"
+    ],
+    "depth": {
+      "extrinsics": "l04_single_d435i_portrait_20261028",
+      "width": 80,
+      "height": 45,
+      "delay_frames": [
+        2,
+        5
+      ],
+      "frames": 2,
+      "frame_skip": 2,
+      "mount_pos_m": 0.005,
+      "mount_rpy_deg": [
+        3.0,
+        5.0,
+        3.0
+      ]
+    },
+    "proprio_history": 8,
+    "clean": false
+  },
+  "encoder_contract": {
+    "input_dim": 7898,
+    "input_segments": [
+      {
+        "name": "base_ang_vel",
+        "shape": [
+          24
+        ],
+        "start": 0,
+        "stop": 24
+      },
+      {
+        "name": "projected_gravity",
+        "shape": [
+          24
+        ],
+        "start": 24,
+        "stop": 48
+      },
+      {
+        "name": "joint_pos",
+        "shape": [
+          216
+        ],
+        "start": 48,
+        "stop": 264
+      },
+      {
+        "name": "joint_vel",
+        "shape": [
+          216
+        ],
+        "start": 264,
+        "stop": 480
+      },
+      {
+        "name": "last_action",
+        "shape": [
+          216
+        ],
+        "start": 480,
+        "stop": 696
+      },
+      {
+        "name": "incoming_type",
+        "shape": [
+          2
+        ],
+        "start": 696,
+        "stop": 698
+      },
+      {
+        "name": "depth_portrait",
+        "shape": [
+          2,
+          45,
+          80
+        ],
+        "start": 698,
+        "stop": 7898
+      }
+    ],
+    "blocks": [
+      {
+        "name": "proprio_encoder",
+        "components": [
+          "base_ang_vel",
+          "projected_gravity",
+          "joint_pos",
+          "joint_vel",
+          "last_action"
+        ],
+        "takeout_input_components": true
+      },
+      {
+        "name": "depth_portrait_encoder",
+        "components": [
+          "depth_portrait"
+        ],
+        "takeout_input_components": true
+      }
+    ],
+    "latent_order": [
+      {
+        "kind": "observation",
+        "name": "incoming_type",
+        "shape": [
+          2
+        ]
+      },
+      {
+        "kind": "encoder",
+        "name": "proprio_encoder",
+        "shape": [
+          64
+        ]
+      },
+      {
+        "kind": "encoder",
+        "name": "depth_portrait_encoder",
+        "shape": [
+          64
+        ]
+      }
+    ]
+  },
+  "physics": {
+    "policy_hz": 50,
+    "physics_hz": 400
+  },
+  "normalizers": [
+    "critic"
+  ],
+  "parity": {
+    "provider": "CPUExecutionProvider",
+    "encoder_max_abs_error": 1.558661460876465e-05,
+    "action_max_abs_error": 2.8312206268310547e-07,
+    "hidden_max_abs_error": 1.4901161193847656e-07,
+    "rtol": 0.0001,
+    "atol": 1e-05
+  },
+  "graphs": [
+    {
+      "file": "0-depth_portrait_encoder.onnx",
+      "bytes": 1077499,
+      "sha256": "47b38bd1cff31a985b9f0f2145cde7364f43a04e7a38eddcf549936171136f94"
+    },
+    {
+      "file": "0-proprio_encoder.onnx",
+      "bytes": 879362,
+      "sha256": "af33b10f049e231d8e27a4683e48944cc2dfcfc43c32775a06a346c14239bee8"
+    },
+    {
+      "file": "actor.onnx",
+      "bytes": 2390814,
+      "sha256": "e560fe07ebf9e473cda163f69cdade432f6e59ce2edfbd32fb624251e6172a32"
+    }
+  ],
+  "note": "Exported actor/encoder graphs only; sensor rendering and MuJoCo parity are not included."
+}

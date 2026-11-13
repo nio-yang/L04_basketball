@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101813">
+    <title>在线接球演示 | L04 Catch</title>
+    <link rel="stylesheet" href="../styles.css?v=2">
+    <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js"}}</script>
+  </head>
+  <body class="play-page">
+    <header class="topbar">
+      <a class="wordmark" href="../"><span class="mark">L4</span><span>LOCO<span class="wordmark-light">LAB</span></span></a>
+      <a class="back-link" href="./">← 返回回放 Play</a>
+      <span class="runtime-badge"><i></i> 在线接球演示</span>
+    </header>
+    <main class="play-main live-main">
+      <section class="play-intro"><p class="eyebrow">L04 · 接球演示</p><h1>篮球场已就位。<br><em>轮到机器人了。</em></h1></section>
+      <section class="live-grid">
+        <div class="live-panel"><div class="panel-heading"><span>01</span><div><p class="eyebrow">L04 · STUDENT</p><h2>接球场景</h2></div></div><div class="live-status"><i id="live-dot"></i><span id="live-status">等待开始</span></div><div class="live-viewport-wrap"><div id="live-viewport" class="live-viewport" role="img" aria-label="L04 人形机器人与篮球场景"><div class="viewport-placeholder" id="viewport-placeholder">等待开始</div></div><div class="viewport-badge">L04 · 接球场景</div><div class="depth-preview"><span>深度画面</span><canvas id="depth-preview" width="45" height="80" aria-label="深度画面"></canvas></div><button class="viewport-button" id="live-recenter" type="button" aria-label="重置视角" title="重置视角">⌖</button><button class="viewport-button viewport-fullscreen" id="live-fullscreen" type="button" aria-label="全屏" title="全屏">⛶</button><div class="viewport-help">拖动旋转 · 滚轮缩放 · 右键平移</div></div><div class="live-metrics"><div><span>仿真时间</span><strong id="live-time">0.000 s</strong></div><div><span>来球速度</span><strong id="live-ball-speed">0.0 m/s</strong></div></div><div class="live-actions"><button class="button button-lime" id="live-start" type="button">开始演示 <span>▶</span></button><button class="button button-outline" id="live-pause" type="button" disabled>暂停 <span>Ⅱ</span></button><button class="button button-outline" id="live-reset" type="button" disabled>重新开始 <span>↺</span></button></div><div class="live-key-hint"><kbd>Space</kbd><span>暂停 / 继续 / 发球</span><kbd>P</kbd><span>暂停</span><kbd>R</kbd><span>重置</span></div></div>
+        <aside class="live-warning live-controls">
+          <p class="eyebrow">02 / 来球设置</p>
+          <h2>选择回合</h2>
+          <label class="live-field"><span>来球模式</span><select id="live-trajectory"><option value="direct">直接来球</option><option value="bounce">击地反弹</option></select></label>
+          <div id="live-direct-grid">
+            <label class="live-field"><span>接球位置</span><select id="live-grid-position"><option value="0">右侧</option><option value="1" selected>中央</option><option value="2">左侧</option></select></label>
+            <label class="live-field"><span>接球高度</span><select id="live-grid-height"><option value="0">较低</option><option value="1" selected>适中</option><option value="2">较高</option></select></label>
+            <p class="live-grid-status" id="live-grid-status" role="status">读取球路验证状态…</p>
+          </div>
+          <label class="live-field" id="live-clip-field" hidden><span>接球回合</span><select id="live-clip"><option value="">请选择回合</option></select></label>
+          <button class="button button-lime live-throw" id="live-throw" type="button" disabled>发球 <span>↗</span></button>
+        </aside>
+      </section>
+    </main>
+    <footer class="site-footer"><a class="wordmark" href="../"><span class="mark">L4</span><span>LOCO<span class="wordmark-light">LAB</span></span></a><span>在线接球演示</span><a href="./">返回案例回放 ↗</a></footer>
+    <script type="module" src="../live.js?v=99"></script>
+  </body>
+</html>

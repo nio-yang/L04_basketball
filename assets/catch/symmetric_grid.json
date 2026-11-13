@@ -1,0 +1,1207 @@
+{
+  "schema": 1,
+  "policy": "student095_325",
+  "status": "browser_catch_and_provisional_posture_verified",
+  "axes": {
+    "lateralM": [
+      -0.04,
+      0,
+      0.04
+    ],
+    "arrivalSpeedMps": [
+      5.75,
+      5.85,
+      6
+    ],
+    "heightM": [
+      1.105,
+      1.13,
+      1.155
+    ]
+  },
+  "verifiedCount": 27,
+  "total": 27,
+  "entries": [
+    {
+      "cell": [
+        0,
+        0,
+        0
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.4074251068347277,
+          -0.09415,
+          1.4695055
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.020067856310075,
+          0.14635135135135136,
+          0.8297000000000003
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ]
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.40272811343959,
+          "maxRootTravelM": 0.04017627565460864,
+          "maxRootHeightChangeM": 0.03703614957978407,
+          "maxRootDifferenceM": 0.010988520408322058,
+          "maxJointRmsDifferenceRad": 0.05365771292956524,
+          "maxArmJointDifferenceRad": 0.154382586479187,
+          "maxLegJointDifferenceRad": 0.08128467202186584,
+          "maxHeadWaistJointDifferenceRad": 0.044715965166687965,
+          "maxWaistJointDifferenceRad": 0.044715965166687965,
+          "maxHeadJointDifferenceRad": 0.0066376125905662775,
+          "comparedFrames": 233
+        }
+      }
+    },
+    {
+      "cell": [
+        0,
+        0,
+        1
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.4576678897281887,
+          -0.09415,
+          1.4857179999999999
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.020178657179444,
+          0.1425,
+          0.9278000000000004
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ]
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.217270549408486,
+          "maxRootTravelM": 0.036487050547842514,
+          "maxRootHeightChangeM": 0.026899281357201432,
+          "maxRootDifferenceM": 0.012252149232602644,
+          "maxJointRmsDifferenceRad": 0.031955811899150886,
+          "maxArmJointDifferenceRad": 0.07596073485910892,
+          "maxLegJointDifferenceRad": 0.05773383378982544,
+          "maxHeadWaistJointDifferenceRad": 0.07566064596176147,
+          "maxWaistJointDifferenceRad": 0.07566064596176147,
+          "maxHeadJointDifferenceRad": 0.005407986231148243,
+          "comparedFrames": 234
+        }
+      }
+    },
+    {
+      "cell": [
+        0,
+        0,
+        2
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.256689420339858,
+          -0.09415,
+          1.5399820000000002
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.019674765705465,
+          0.15926470588235292,
+          0.5354000000000005
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ]
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.4400000000000008,
+        "posture": {
+          "maxRootTiltDeg": 8.179767903570031,
+          "maxRootTravelM": 0.034046333177793,
+          "maxRootHeightChangeM": 0.026710795397476894,
+          "maxRootDifferenceM": 0.02126098506035444,
+          "maxJointRmsDifferenceRad": 0.09846764815623371,
+          "maxArmJointDifferenceRad": 0.2448176145553589,
+          "maxLegJointDifferenceRad": 0.10007491707801819,
+          "maxHeadWaistJointDifferenceRad": 0.09356238692998886,
+          "maxWaistJointDifferenceRad": 0.09356238692998886,
+          "maxHeadJointDifferenceRad": 0.01787055842578411,
+          "comparedFrames": 234
+        }
+      }
+    },
+    {
+      "cell": [
+        0,
+        1,
+        0
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.4496926139510045,
+          -0.09415,
+          1.4695055
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.1343043620297415,
+          0.14635135135135136,
+          0.8297000000000003
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ]
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.450877067684413,
+          "maxRootTravelM": 0.04206236361796764,
+          "maxRootHeightChangeM": 0.03378080938688266,
+          "maxRootDifferenceM": 0.008954155786053282,
+          "maxJointRmsDifferenceRad": 0.02689111789114922,
+          "maxArmJointDifferenceRad": 0.07177996635437012,
+          "maxLegJointDifferenceRad": 0.037660419940948486,
+          "maxHeadWaistJointDifferenceRad": 0.048103198409080505,
+          "maxWaistJointDifferenceRad": 0.048103198409080505,
+          "maxHeadJointDifferenceRad": 0.004047950729727745,
+          "comparedFrames": 233
+        }
+      }
+    },
+    {
+      "cell": [
+        0,
+        1,
+        1
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.501076825114788,
+          -0.09415,
+          1.4857179999999999
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.134412697670494,
+          0.1425,
+          0.9278000000000004
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ]
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.25524333934826,
+          "maxRootTravelM": 0.036019019675367185,
+          "maxRootHeightChangeM": 0.02572822914572015,
+          "maxRootDifferenceM": 0.013394182956891362,
+          "maxJointRmsDifferenceRad": 0.03761759653926274,
+          "maxArmJointDifferenceRad": 0.09993783384561539,
+          "maxLegJointDifferenceRad": 0.07067716121673584,
+          "maxHeadWaistJointDifferenceRad": 0.08945832401514053,
+          "maxWaistJointDifferenceRad": 0.08945832401514053,
+          "maxHeadJointDifferenceRad": 0.006926883943378925,
+          "comparedFrames": 234
+        }
+      }
+    },
+    {
+      "cell": [
+        0,
+        1,
+        2
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.295532806194143,
+          -0.09415,
+          1.5399820000000002
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.133920018218068,
+          0.15926470588235292,
+          0.5354000000000005
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ]
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.4400000000000008,
+        "posture": {
+          "maxRootTiltDeg": 8.143420530426887,
+          "maxRootTravelM": 0.033860312434332275,
+          "maxRootHeightChangeM": 0.02701331077276392,
+          "maxRootDifferenceM": 0.02131268606081593,
+          "maxJointRmsDifferenceRad": 0.10165094895374839,
+          "maxArmJointDifferenceRad": 0.2519720792770386,
+          "maxLegJointDifferenceRad": 0.10294690728187561,
+          "maxHeadWaistJointDifferenceRad": 0.09377809800207615,
+          "maxWaistJointDifferenceRad": 0.09377809800207615,
+          "maxHeadJointDifferenceRad": 0.017384338192641735,
+          "comparedFrames": 234
+        }
+      }
+    },
+    {
+      "cell": [
+        0,
+        2,
+        0
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.38855689977709,
+          0.14565848302654702,
+          1.01215302409623
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.821626176528904,
+          "maxRootTravelM": 0.053395778532074153,
+          "maxRootHeightChangeM": 0.03402183671798975,
+          "maxRootDifferenceM": 0.012751159576121326,
+          "maxJointRmsDifferenceRad": 0.033009870520378196,
+          "maxArmJointDifferenceRad": 0.06326542980968952,
+          "maxLegJointDifferenceRad": 0.03449764847755432,
+          "maxHeadWaistJointDifferenceRad": 0.125555869191885,
+          "maxWaistJointDifferenceRad": 0.125555869191885,
+          "maxHeadJointDifferenceRad": 0.0070954579859972,
+          "comparedFrames": 233
+        }
+      }
+    },
+    {
+      "cell": [
+        0,
+        2,
+        1
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.424237854863047,
+          0.14662297758184695,
+          1.0624787039351669
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.860688752086597,
+          "maxRootTravelM": 0.04580784772950253,
+          "maxRootHeightChangeM": 0.03170324756915077,
+          "maxRootDifferenceM": 0.00499474075648629,
+          "maxJointRmsDifferenceRad": 0.024930826914284675,
+          "maxArmJointDifferenceRad": 0.05055915005505085,
+          "maxLegJointDifferenceRad": 0.02786538004875183,
+          "maxHeadWaistJointDifferenceRad": 0.0918547660112381,
+          "maxWaistJointDifferenceRad": 0.0918547660112381,
+          "maxHeadJointDifferenceRad": 0.004622015170753002,
+          "comparedFrames": 233
+        }
+      }
+    },
+    {
+      "cell": [
+        0,
+        2,
+        2
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.3534311124908545,
+          -0.09415,
+          1.5399820000000002
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.304209154384865,
+          0.15926470588235292,
+          0.5354000000000005
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ]
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.4400000000000008,
+        "posture": {
+          "maxRootTiltDeg": 8.173933049615938,
+          "maxRootTravelM": 0.032477931807956835,
+          "maxRootHeightChangeM": 0.028114147223548325,
+          "maxRootDifferenceM": 0.019939545023995975,
+          "maxJointRmsDifferenceRad": 0.10836221564711346,
+          "maxArmJointDifferenceRad": 0.27440714836120605,
+          "maxLegJointDifferenceRad": 0.10569888353347778,
+          "maxHeadWaistJointDifferenceRad": 0.09017388708889484,
+          "maxWaistJointDifferenceRad": 0.09017388708889484,
+          "maxHeadJointDifferenceRad": 0.01596886944025755,
+          "comparedFrames": 234
+        }
+      }
+    },
+    {
+      "cell": [
+        1,
+        0,
+        0
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.070352590774588,
+          0.23829961134228317,
+          1.1745013837622966
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.630768589574975,
+          "maxRootTravelM": 0.04224797084229684,
+          "maxRootHeightChangeM": 0.030648136861292752,
+          "maxRootDifferenceM": 0.0061422737410547846,
+          "maxJointRmsDifferenceRad": 0.027859025089787198,
+          "maxArmJointDifferenceRad": 0.09937997907400131,
+          "maxLegJointDifferenceRad": 0.0225256085395813,
+          "maxHeadWaistJointDifferenceRad": 0.018326234072446823,
+          "maxWaistJointDifferenceRad": 0.018326234072446823,
+          "maxHeadJointDifferenceRad": 0.012167654000222683,
+          "comparedFrames": 234
+        }
+      }
+    },
+    {
+      "cell": [
+        1,
+        0,
+        1
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.108186139573281,
+          0.24007773619908931,
+          1.2182005762816555
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.83157808504706,
+          "maxRootTravelM": 0.03747155666178742,
+          "maxRootHeightChangeM": 0.029470251687538918,
+          "maxRootDifferenceM": 0.00811800660835041,
+          "maxJointRmsDifferenceRad": 0.03141455524110497,
+          "maxArmJointDifferenceRad": 0.10408030450344086,
+          "maxLegJointDifferenceRad": 0.030407071113586426,
+          "maxHeadWaistJointDifferenceRad": 0.03502785786986351,
+          "maxWaistJointDifferenceRad": 0.03502785786986351,
+          "maxHeadJointDifferenceRad": 0.005623992532491684,
+          "comparedFrames": 234
+        }
+      }
+    },
+    {
+      "cell": [
+        1,
+        0,
+        2
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.144959317380523,
+          0.241806025074942,
+          1.2635818409334705
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 9.039419671350668,
+          "maxRootTravelM": 0.03126672499739251,
+          "maxRootHeightChangeM": 0.02718316949434807,
+          "maxRootDifferenceM": 0.015578854834999553,
+          "maxJointRmsDifferenceRad": 0.04270965131738179,
+          "maxArmJointDifferenceRad": 0.17723111808300018,
+          "maxLegJointDifferenceRad": 0.05972939729690552,
+          "maxHeadWaistJointDifferenceRad": 0.06790556013584137,
+          "maxWaistJointDifferenceRad": 0.06790556013584137,
+          "maxHeadJointDifferenceRad": 0.010597458342090249,
+          "comparedFrames": 234
+        }
+      }
+    },
+    {
+      "cell": [
+        1,
+        1,
+        0
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.197875736819424,
+          0.24429302414653692,
+          1.1077564456762516
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.603613114260224,
+          "maxRootTravelM": 0.042593825156985406,
+          "maxRootHeightChangeM": 0.031218040346511433,
+          "maxRootDifferenceM": 0.00426267388346254,
+          "maxJointRmsDifferenceRad": 0.011743177713360869,
+          "maxArmJointDifferenceRad": 0.036799632012844086,
+          "maxLegJointDifferenceRad": 0.01147141307592392,
+          "maxHeadWaistJointDifferenceRad": 0.02235846221446991,
+          "maxWaistJointDifferenceRad": 0.02235846221446991,
+          "maxHeadJointDifferenceRad": 0.004890432581305504,
+          "comparedFrames": 234
+        }
+      }
+    },
+    {
+      "cell": [
+        1,
+        1,
+        1
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.234735363980624,
+          0.24602537602335062,
+          1.1542238879191544
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.80324926842633,
+          "maxRootTravelM": 0.03894162147495717,
+          "maxRootHeightChangeM": 0.029802094678236912,
+          "maxRootDifferenceM": 0.004916898656757113,
+          "maxJointRmsDifferenceRad": 0.018928765764923132,
+          "maxArmJointDifferenceRad": 0.04914363473653793,
+          "maxLegJointDifferenceRad": 0.02689981460571289,
+          "maxHeadWaistJointDifferenceRad": 0.028488293290138245,
+          "maxWaistJointDifferenceRad": 0.028488293290138245,
+          "maxHeadJointDifferenceRad": 0.004231736995279789,
+          "comparedFrames": 234
+        }
+      }
+    },
+    {
+      "cell": [
+        1,
+        1,
+        2
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.2705646164180235,
+          0.2477093017026124,
+          1.2022912816835747
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 9.022870432496084,
+          "maxRootTravelM": 0.03285000405118767,
+          "maxRootHeightChangeM": 0.028516593997136686,
+          "maxRootDifferenceM": 0.011013394616291559,
+          "maxJointRmsDifferenceRad": 0.03267451332933727,
+          "maxArmJointDifferenceRad": 0.11303181946277618,
+          "maxLegJointDifferenceRad": 0.04270641505718231,
+          "maxHeadWaistJointDifferenceRad": 0.044849738478660583,
+          "maxWaistJointDifferenceRad": 0.044849738478660583,
+          "maxHeadJointDifferenceRad": 0.0071745687164366245,
+          "comparedFrames": 233
+        }
+      }
+    },
+    {
+      "cell": [
+        1,
+        2,
+        0
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.384179429966597,
+          0.25304904197247297,
+          1.0142946555520254
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.477085456686169,
+          "maxRootTravelM": 0.045736640355810834,
+          "maxRootHeightChangeM": 0.03299866470362145,
+          "maxRootDifferenceM": 0.00742643757654285,
+          "maxJointRmsDifferenceRad": 0.027731903835734997,
+          "maxArmJointDifferenceRad": 0.09344494342803955,
+          "maxLegJointDifferenceRad": 0.02365850657224655,
+          "maxHeadWaistJointDifferenceRad": 0.01913467049598694,
+          "maxWaistJointDifferenceRad": 0.01913467049598694,
+          "maxHeadJointDifferenceRad": 0.008915186859667301,
+          "comparedFrames": 233
+        }
+      }
+    },
+    {
+      "cell": [
+        1,
+        2,
+        1
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.419828423179016,
+          0.254724495715615,
+          1.064561362526033
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.572355884081766,
+          "maxRootTravelM": 0.039986380298811394,
+          "maxRootHeightChangeM": 0.031202222729743156,
+          "maxRootDifferenceM": 0.00575656727967199,
+          "maxJointRmsDifferenceRad": 0.0213250284073012,
+          "maxArmJointDifferenceRad": 0.08030281960964203,
+          "maxLegJointDifferenceRad": 0.020992040634155273,
+          "maxHeadWaistJointDifferenceRad": 0.03571367263793945,
+          "maxWaistJointDifferenceRad": 0.03571367263793945,
+          "maxHeadJointDifferenceRad": 0.004359520971775055,
+          "comparedFrames": 233
+        }
+      }
+    },
+    {
+      "cell": [
+        1,
+        2,
+        2
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.4544755004734045,
+          0.25635286078600894,
+          1.1163314138293445
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.922770377988677,
+          "maxRootTravelM": 0.034701695348538626,
+          "maxRootHeightChangeM": 0.02943455892708724,
+          "maxRootDifferenceM": 0.008121466712683803,
+          "maxJointRmsDifferenceRad": 0.021848568942078005,
+          "maxArmJointDifferenceRad": 0.09046872332692146,
+          "maxLegJointDifferenceRad": 0.02650660276412964,
+          "maxHeadWaistJointDifferenceRad": 0.020395085215568542,
+          "maxWaistJointDifferenceRad": 0.020395085215568542,
+          "maxHeadJointDifferenceRad": 0.006967458641156554,
+          "comparedFrames": 233
+        }
+      }
+    },
+    {
+      "cell": [
+        2,
+        0,
+        0
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.063797791567709,
+          0.339103194178863,
+          1.1779968377765981
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.487704326805487,
+          "maxRootTravelM": 0.041521961664731974,
+          "maxRootHeightChangeM": 0.0301396262532706,
+          "maxRootDifferenceM": 0.011645708717593727,
+          "maxJointRmsDifferenceRad": 0.03403535696131678,
+          "maxArmJointDifferenceRad": 0.09423700720071793,
+          "maxLegJointDifferenceRad": 0.05036020278930664,
+          "maxHeadWaistJointDifferenceRad": 0.07693839073181152,
+          "maxWaistJointDifferenceRad": 0.07693839073181152,
+          "maxHeadJointDifferenceRad": 0.006271029356867075,
+          "comparedFrames": 234
+        }
+      }
+    },
+    {
+      "cell": [
+        2,
+        0,
+        1
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.101587596202485,
+          0.3416338330365968,
+          1.2215997390297997
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.864200215550454,
+          "maxRootTravelM": 0.036729220751683736,
+          "maxRootHeightChangeM": 0.028450197021102297,
+          "maxRootDifferenceM": 0.011791295281195213,
+          "maxJointRmsDifferenceRad": 0.03615131415413543,
+          "maxArmJointDifferenceRad": 0.10809886269271374,
+          "maxLegJointDifferenceRad": 0.04799196124076843,
+          "maxHeadWaistJointDifferenceRad": 0.06440380215644836,
+          "maxWaistJointDifferenceRad": 0.06440380215644836,
+          "maxHeadJointDifferenceRad": 0.00814220542088151,
+          "comparedFrames": 234
+        }
+      }
+    },
+    {
+      "cell": [
+        2,
+        0,
+        2
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.138318780676618,
+          0.3440935801461462,
+          1.26688409740124
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.997105211461797,
+          "maxRootTravelM": 0.029802980007840596,
+          "maxRootHeightChangeM": 0.026855510165287977,
+          "maxRootDifferenceM": 0.014851369490979894,
+          "maxJointRmsDifferenceRad": 0.031580648298364634,
+          "maxArmJointDifferenceRad": 0.11808227002620697,
+          "maxLegJointDifferenceRad": 0.030459970235824585,
+          "maxHeadWaistJointDifferenceRad": 0.046779700438492,
+          "maxWaistJointDifferenceRad": 0.046779700438492,
+          "maxHeadJointDifferenceRad": 0.005745144560933113,
+          "comparedFrames": 234
+        }
+      }
+    },
+    {
+      "cell": [
+        2,
+        1,
+        0
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.191260242458408,
+          0.3476388676030423,
+          1.1111615151733516
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.54102141412318,
+          "maxRootTravelM": 0.04069648676387014,
+          "maxRootHeightChangeM": 0.03011521356104996,
+          "maxRootDifferenceM": 0.013325122057988324,
+          "maxJointRmsDifferenceRad": 0.030989813211644582,
+          "maxArmJointDifferenceRad": 0.09419998247176409,
+          "maxLegJointDifferenceRad": 0.04650202393531799,
+          "maxHeadWaistJointDifferenceRad": 0.06058436632156372,
+          "maxWaistJointDifferenceRad": 0.06058436632156372,
+          "maxHeadJointDifferenceRad": 0.0063727786764502525,
+          "comparedFrames": 234
+        }
+      }
+    },
+    {
+      "cell": [
+        2,
+        1,
+        1
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.228073652402634,
+          0.3501041210382191,
+          1.1575355672658356
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.675042743094435,
+          "maxRootTravelM": 0.038013492224563,
+          "maxRootHeightChangeM": 0.029295403291992206,
+          "maxRootDifferenceM": 0.009788419631955722,
+          "maxJointRmsDifferenceRad": 0.03269684810814545,
+          "maxArmJointDifferenceRad": 0.10902425087988377,
+          "maxLegJointDifferenceRad": 0.04253903031349182,
+          "maxHeadWaistJointDifferenceRad": 0.07514186203479767,
+          "maxWaistJointDifferenceRad": 0.07514186203479767,
+          "maxHeadJointDifferenceRad": 0.007327354978770018,
+          "comparedFrames": 232
+        }
+      }
+    },
+    {
+      "cell": [
+        2,
+        1,
+        2
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.263858650547175,
+          0.3525005056637477,
+          1.2055086480678876
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 9.083593343296915,
+          "maxRootTravelM": 0.031315787512151395,
+          "maxRootHeightChangeM": 0.027682471482749826,
+          "maxRootDifferenceM": 0.012263249110691368,
+          "maxJointRmsDifferenceRad": 0.01932200690622268,
+          "maxArmJointDifferenceRad": 0.05256351828575134,
+          "maxLegJointDifferenceRad": 0.02193385362625122,
+          "maxHeadWaistJointDifferenceRad": 0.0461440309882164,
+          "maxWaistJointDifferenceRad": 0.0461440309882164,
+          "maxHeadJointDifferenceRad": 0.006131975678727031,
+          "comparedFrames": 233
+        }
+      }
+    },
+    {
+      "cell": [
+        2,
+        2,
+        0
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.377457857270972,
+          0.36010781058425057,
+          1.0175878134249174
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.335632930681232,
+          "maxRootTravelM": 0.04226727452808432,
+          "maxRootHeightChangeM": 0.03155986156881352,
+          "maxRootDifferenceM": 0.010894707374377826,
+          "maxJointRmsDifferenceRad": 0.038591505016838334,
+          "maxArmJointDifferenceRad": 0.1018363106995821,
+          "maxLegJointDifferenceRad": 0.042520225048065186,
+          "maxHeadWaistJointDifferenceRad": 0.08829964697360992,
+          "maxWaistJointDifferenceRad": 0.08829964697360992,
+          "maxHeadJointDifferenceRad": 0.007960062474012375,
+          "comparedFrames": 233
+        }
+      }
+    },
+    {
+      "cell": [
+        2,
+        2,
+        1
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.413057874514688,
+          0.36249180774548573,
+          1.0677638954712492
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.43620008607777,
+          "maxRootTravelM": 0.03720478343889195,
+          "maxRootHeightChangeM": 0.030199595927951517,
+          "maxRootDifferenceM": 0.010263249803018286,
+          "maxJointRmsDifferenceRad": 0.034102852049608244,
+          "maxArmJointDifferenceRad": 0.07788226380944252,
+          "maxLegJointDifferenceRad": 0.03777673840522766,
+          "maxHeadWaistJointDifferenceRad": 0.10076478123664856,
+          "maxWaistJointDifferenceRad": 0.10076478123664856,
+          "maxHeadJointDifferenceRad": 0.009728076867759228,
+          "comparedFrames": 233
+        }
+      }
+    },
+    {
+      "cell": [
+        2,
+        2,
+        2
+      ],
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.44765816828014,
+          0.3648088572443678,
+          1.1194420839180204
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ],
+        "prelaunch_wait_s": 2.7
+      },
+      "verified": true,
+      "verification": {
+        "normalBrowserHoldS": 1.5000000000000009,
+        "posture": {
+          "maxRootTiltDeg": 8.731465489532889,
+          "maxRootTravelM": 0.03300676072807429,
+          "maxRootHeightChangeM": 0.029174052488540547,
+          "maxRootDifferenceM": 0.013086804980075467,
+          "maxJointRmsDifferenceRad": 0.031621176073930723,
+          "maxArmJointDifferenceRad": 0.08921745419502258,
+          "maxLegJointDifferenceRad": 0.027218759059906006,
+          "maxHeadWaistJointDifferenceRad": 0.08998510241508484,
+          "maxWaistJointDifferenceRad": 0.08998510241508484,
+          "maxHeadJointDifferenceRad": 0.010773739777505398,
+          "comparedFrames": 233
+        }
+      }
+    }
+  ]
+}

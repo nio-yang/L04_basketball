@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "mode": "bounce",
+  "status": "visual_exploration",
+  "policy": "student095_325",
+  "axes": {
+    "position": ["right", "center", "left"],
+    "height": ["low", "middle", "high"]
+  },
+  "entries": [
+    {"cell":[0,0],"referenceId":"bounce_1_2_0_yaw_p2","preset":{"clip":"batch_B192m","mode":"bounce","position_yaw_frame_m":[2.50756,0.28117,1.44541],"velocity_yaw_frame_m_s":[-3.3126830918129033,-0.5944048935791654,-0.7111752243114019],"angular_velocity_yaw_frame_rad_s":[0,0,0]},"measured":{"firstTouchBallWorldM":[0.4971087683589055,-0.06236476278692346,0.7688778966244483],"speedMps":3.439906487677874,"bestHoldS":[1.32,1.32,1.32],"referenceCount":3}},
+    {"cell":[0,1],"referenceId":"bounce_0_0_1","preset":{"clip":"batch_B129p","mode":"bounce","position_yaw_frame_m":[2.59209,-0.38362,1.4315],"velocity_yaw_frame_m_s":[-3.2489641462992496,0.4830407903547375,-0.38437864538115274],"angular_velocity_yaw_frame_rad_s":[0,0,0]},"measured":{"firstTouchBallWorldM":[0.4589709364594738,-0.05778053437319436,0.8116319299544533],"speedMps":3.3070898645349196,"bestHoldS":[1.66,1.66,1.66],"referenceCount":3}},
+    {"cell":[0,2],"referenceId":"bounce_0_1_2_yaw_p2","preset":{"clip":"batch_B109m","mode":"bounce","position_yaw_frame_m":[2.78602,-0.19618,1.41893],"velocity_yaw_frame_m_s":[-3.6833690853175693,0.06259406430862614,-0.7041954369840531],"angular_velocity_yaw_frame_rad_s":[0,0,0]},"measured":{"firstTouchBallWorldM":[0.4548605109051663,-0.15468514469694478,0.8329386039957963],"speedMps":3.7506022248472344,"bestHoldS":[1.5,1.5,1.5],"referenceCount":3}},
+    {"cell":[1,0],"referenceId":"bounce_1_2_0","preset":{"clip":"batch_B192m","mode":"bounce","position_yaw_frame_m":[2.50756,0.28117,1.44541],"velocity_yaw_frame_m_s":[-3.3314095264024894,-0.4784318255391243,-0.7111752243114019],"angular_velocity_yaw_frame_rad_s":[0,0,0]},"measured":{"firstTouchBallWorldM":[0.48353931441008985,0.006065955954977667,0.7678688319288407],"speedMps":3.4399064876778747,"bestHoldS":[1.56,1.56,1.56],"referenceCount":3}},
+    {"cell":[1,1],"referenceId":"bounce_1_0_1","preset":{"clip":"batch_B129m","mode":"bounce","position_yaw_frame_m":[2.59209,0.38362,1.4315],"velocity_yaw_frame_m_s":[-3.24880225440579,-0.6104920330983434,-0.3816074191433194],"angular_velocity_yaw_frame_rad_s":[0,0,0]},"measured":{"firstTouchBallWorldM":[0.47665519937190154,-0.022080336402412748,0.8052285831823048],"speedMps":3.327617891683767,"bestHoldS":[1.48,1.48,1.48],"referenceCount":3}},
+    {"cell":[1,2],"referenceId":"bounce_0_1_2_yaw_m2","preset":{"clip":"batch_B109m","mode":"bounce","position_yaw_frame_m":[2.78602,-0.19618,1.41893],"velocity_yaw_frame_m_s":[-3.670030242147736,0.31938042720381526,-0.7041954369840531],"angular_velocity_yaw_frame_rad_s":[0,0,0]},"measured":{"firstTouchBallWorldM":[0.4590561776501114,0.00660328091202538,0.8324316135968454],"speedMps":3.750602224847234,"bestHoldS":[1.58,1.58,1.58],"referenceCount":3}},
+    {"cell":[2,0],"referenceId":"bounce_2_0_1","preset":{"clip":"batch_B129m","mode":"bounce","position_yaw_frame_m":[2.59209,0.38362,1.4315],"velocity_yaw_frame_m_s":[-3.2489642036620348,-0.4830327061209699,-0.3843791611976198],"angular_velocity_yaw_frame_rad_s":[0,0,0]},"measured":{"firstTouchBallWorldM":[0.49680741993753375,0.06548133643800674,0.7840884699467962],"speedMps":3.3070888000510075,"bestHoldS":[1.42,1.42,1.42],"referenceCount":3}},
+    {"cell":[2,1],"referenceId":"bounce_2_0_0","preset":{"clip":"batch_B192m","mode":"bounce","position_yaw_frame_m":[2.50756,0.28117,1.44541],"velocity_yaw_frame_m_s":[-3.124335638336584,-0.32095081710161977,-0.307851439782878],"angular_velocity_yaw_frame_rad_s":[0,0,0]},"measured":{"firstTouchBallWorldM":[0.4617389131255321,0.056558923770531955,0.7958953883575445],"speedMps":3.1558287527929423,"bestHoldS":[1.38,1.38,1.38],"referenceCount":3}},
+    {"cell":[2,2],"referenceId":"bounce_0_1_2_yaw_m4","preset":{"clip":"batch_B109m","mode":"bounce","position_yaw_frame_m":[2.78602,-0.19618,1.41893],"velocity_yaw_frame_m_s":[-3.6566483427190755,0.4472680776108468,-0.7041954369840531],"angular_velocity_yaw_frame_rad_s":[0,0,0]},"measured":{"firstTouchBallWorldM":[0.42486618845508795,0.10355429333612141,0.850829904038179],"speedMps":3.7506022248472344,"bestHoldS":[1.7,1.7,1.7],"referenceCount":3}}
+  ]
+}

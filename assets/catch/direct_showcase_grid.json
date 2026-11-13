@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "mode": "direct",
+  "status": "visual_exploration",
+  "policy": "student095_325",
+  "axes": {
+    "position": ["right", "center", "left"],
+    "height": ["low", "middle", "high"]
+  },
+  "trialCountPerEntry": 3,
+  "entries": [
+    {"cell":[0,0],"targetLateralM":-0.05,"targetHeightM":1.08,"targetSpeedMps":5.85,"preset":{"clip":"batch_D007m","mode":"direct","position_yaw_frame_m":[2.55325,-0.09415,1.40662],"velocity_yaw_frame_m_s":[-5.164982281124911,0.11383200684470977,1.060290483727656],"angular_velocity_yaw_frame_rad_s":[0,0,0]},"trials":{"bestHoldS":[1.60,1.60,1.60],"firstGroundAfterLaunchS":2.54},"touchBallYawFrameM":{"leftYz":[-0.028,1.016],"rightYz":[-0.023,1.042]}},
+    {"cell":[0,1],"targetLateralM":-0.04,"targetHeightM":1.12,"targetSpeedMps":6.1,"preset":{"clip":"batch_D007m","mode":"direct","position_yaw_frame_m":[2.55325,-0.09415,1.40662],"velocity_yaw_frame_m_s":[-5.531163601833971,0.14951329541460606,0.985084049328444],"angular_velocity_yaw_frame_rad_s":[0,0,0]},"trials":{"bestHoldS":[1.66,1.66,1.66],"firstGroundAfterLaunchS":2.52},"touchBallYawFrameM":{"leftYz":[-0.013,1.031],"rightYz":[-0.018,1.067]}},
+    {"cell":[0,2],"targetLateralM":-0.02,"targetHeightM":1.2,"targetSpeedMps":5.85,"preset":{"clip":"batch_D007m","mode":"direct","position_yaw_frame_m":[2.55325,-0.09415,1.40662],"velocity_yaw_frame_m_s":[-5.334932914348982,0.19747174621189417,1.29155383505447],"angular_velocity_yaw_frame_rad_s":[0,0,0]},"trials":{"bestHoldS":[1.84,1.84,1.84],"firstGroundAfterLaunchS":2.72},"touchBallYawFrameM":{"leftYz":[0.019,1.155],"rightYz":[-0.016,1.185]}},
+    {"cell":[1,0],"targetLateralM":0,"targetHeightM":1.08,"targetSpeedMps":5.85,"preset":{"clip":"batch_D007m","mode":"direct","position_yaw_frame_m":[2.55325,-0.09415,1.40662],"velocity_yaw_frame_m_s":[-5.159995902126512,0.24251272391624168,1.0629418934148427],"angular_velocity_yaw_frame_rad_s":[0,0,0]},"trials":{"bestHoldS":[1.52,1.52,1.52],"firstGroundAfterLaunchS":2.54},"touchBallYawFrameM":{"leftYz":[0.035,1.048],"rightYz":[0.035,1.048]}},
+    {"cell":[1,1],"targetLateralM":0,"targetHeightM":1.12,"targetSpeedMps":5.85,"preset":{"clip":"batch_D007m","mode":"direct","position_yaw_frame_m":[2.55325,-0.09415,1.40662],"velocity_yaw_frame_m_s":[-5.220114587240768,0.24533821958752947,1.1354419642085543],"angular_velocity_yaw_frame_rad_s":[0,0,0]},"trials":{"bestHoldS":[1.74,1.74,1.74],"firstGroundAfterLaunchS":2.64},"touchBallYawFrameM":{"leftYz":[0.040,1.082],"rightYz":[0.040,1.082]}},
+    {"cell":[1,2],"targetLateralM":0,"targetHeightM":1.19,"targetSpeedMps":5.85,"preset":{"clip":"batch_D007m","mode":"direct","position_yaw_frame_m":[2.55325,-0.09415,1.40662],"velocity_yaw_frame_m_s":[-5.318975216313551,0.24998453344111865,1.2721737229177612],"angular_velocity_yaw_frame_rad_s":[0,0,0]},"trials":{"bestHoldS":[1.82,1.82,1.82],"firstGroundAfterLaunchS":2.7},"touchBallYawFrameM":{"leftYz":[0.045,1.150],"rightYz":[0.009,1.179]}},
+    {"cell":[2,0],"targetLateralM":0.08,"targetHeightM":1.08,"targetSpeedMps":5.85,"preset":{"clip":"batch_D007m","mode":"direct","position_yaw_frame_m":[2.55325,-0.09415,1.40662],"velocity_yaw_frame_m_s":[-5.14459125130825,0.447238520611672,1.0711555268231148],"angular_velocity_yaw_frame_rad_s":[0,0,0]},"trials":{"bestHoldS":[1.68,1.68,1.68],"firstGroundAfterLaunchS":2.56},"touchBallYawFrameM":{"leftYz":[0.082,1.047],"rightYz":[0.079,1.017]}},
+    {"cell":[2,1],"targetLateralM":0.08,"targetHeightM":1.12,"targetSpeedMps":5.85,"preset":{"clip":"batch_D007m","mode":"direct","position_yaw_frame_m":[2.55325,-0.09415,1.40662],"velocity_yaw_frame_m_s":[-5.204532039889202,0.45244939710305987,1.1433072154184252],"angular_velocity_yaw_frame_rad_s":[0,0,0]},"trials":{"bestHoldS":[1.68,1.68,1.68],"firstGroundAfterLaunchS":2.58},"touchBallYawFrameM":{"leftYz":[0.076,1.081],"rightYz":[0.076,1.081]}},
+    {"cell":[2,2],"targetLateralM":0.08,"targetHeightM":1.19,"targetSpeedMps":5.85,"preset":{"clip":"batch_D007m","mode":"direct","position_yaw_frame_m":[2.55325,-0.09415,1.40662],"velocity_yaw_frame_m_s":[-5.303109592498236,0.4610191117102549,1.279416128001786],"angular_velocity_yaw_frame_rad_s":[0,0,0]},"trials":{"bestHoldS":[1.64,1.64,1.64],"firstGroundAfterLaunchS":2.6},"touchBallYawFrameM":{"leftYz":[0.084,1.149],"rightYz":[0.084,1.149]}}
+  ]
+}

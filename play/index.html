@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101813">
+    <title>Play | L04 Catch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body class="play-page">
+    <header class="topbar">
+      <a class="wordmark" href="../" aria-label="返回首页"><span class="mark">L4</span><span>LOCO<span class="wordmark-light">LAB</span></span></a>
+      <a class="back-link" href="../">← 返回项目介绍</a>
+      <span class="runtime-badge"><i></i> 录制回合回放</span>
+    </header>
+    <main class="play-main">
+        <section class="play-intro"><p class="eyebrow"><span class="live-dot"></span> STUDENT 095 · 接球回合</p><h1>来球已就位。<br><em>轮到你了。</em></h1><p>选择一段回合，查看机器人接球过程与同步深度画面。<a class="play-live-link" href="live.html">打开在线接球演示 ↗</a></p></section>
+      <section class="play-layout" aria-label="接球仿真回合播放器">
+        <div class="stage-column">
+          <div class="stage-topline"><span><i class="status-dot"></i> ISAAC LAB / STUDENT 095 · MODEL 325</span><span id="case-counter">095 V8 · 01 / 08</span></div>
+          <div class="video-stage">
+            <video id="rollout-video" playsinline preload="metadata" poster="../assets/videos/student095_v8_D016m_poster.jpg">
+              <source id="rollout-source" src="../assets/videos/student095_v8_D016m_rgbd.mp4" type="video/mp4">
+            </video>
+            <div class="stage-overlay" id="video-overlay"><span class="overlay-ring">▶</span><span>选择案例并开始回放</span></div>
+            <div class="stage-tag"><span id="stage-mode">DIRECT BALL</span><span>RECORDED ROLLOUT</span></div>
+            <button class="fullscreen-button" id="fullscreen-button" type="button" aria-label="全屏播放">⛶</button>
+          </div>
+          <div class="timeline-row"><span id="current-time">00:00</span><input id="timeline" type="range" min="0" max="1000" value="0" aria-label="回放进度"><span id="duration">00:00</span></div>
+          <div class="transport-row"><div class="transport-buttons"><button id="play-button" class="transport-primary" type="button" aria-label="播放">▶</button><button id="reset-button" type="button" aria-label="从头播放">↺</button><button id="random-button" type="button" class="random-button">随机案例 <span>⤨</span></button></div><label class="speed-control">播放速度<select id="playback-speed" aria-label="播放速度"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option></select></label></div>
+          <div class="runtime-note"><span class="note-mark">i</span><p>已录制接球回合</p></div>
+        </div>
+        <aside class="control-panel">
+          <div class="panel-section setup-section"><div class="panel-heading"><span>01</span><div><p class="eyebrow">CHOOSE A SETUP</p><h2>选择来球模式</h2></div></div>
+            <div class="mode-switch" role="group" aria-label="筛选来球模式"><button class="mode-button active" data-mode="all" type="button"><strong>全部案例</strong><span>ALL</span></button><button class="mode-button" data-mode="direct" type="button"><strong>直接来球</strong><span>DIRECT</span></button><button class="mode-button" data-mode="bounce" type="button"><strong>击地反弹</strong><span>BOUNCE</span></button></div>
+            <p class="panel-hint">选择回合后即可播放。</p>
+          </div>
+          <div class="panel-section case-section"><div class="panel-heading"><span>02</span><div><p class="eyebrow">RECORDED SCENARIOS</p><h2>回合选择</h2></div></div><div class="case-list" id="case-list" role="listbox" aria-label="仿真回合列表"></div></div>
+          <div class="metrics-section"><p class="eyebrow">PLAYBACK METRICS</p><div class="metric-grid"><div class="metric-cell"><span>场景</span><strong id="metric-mode">直接来球</strong></div><div class="metric-cell"><span>当前回放</span><strong id="metric-time">0.0 s</strong></div><div class="metric-cell"><span>策略</span><strong>095 · 325</strong></div><div class="metric-cell"><span>仿真状态</span><strong id="metric-status">待开始</strong></div></div></div>
+          <div class="keyboard-hint"><span>键盘控制</span><kbd>Space</kbd><small>播放 / 暂停</small><kbd>R</kbd><small>重播</small></div>
+        </aside>
+      </section>
+    </main>
+    <footer class="site-footer"><a class="wordmark" href="../"><span class="mark">L4</span><span>LOCO<span class="wordmark-light">LAB</span></span></a><span>接球回合回放</span><a href="../">项目首页 ↗</a></footer>
+    <script src="../play.js?v=3" defer></script>
+  </body>
+</html>

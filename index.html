@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f7f8">
+    <meta name="description" content="L04 人形机器人视觉接球：从 Isaac Lab 策略训练到仿真验证。">
+    <title>L04 Catch | 视觉驱动的人形机器人接球</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js"}}</script>
+    <link rel="stylesheet" href="styles.css?v=1">
+    <link rel="stylesheet" href="project.css?v=11">
+  </head>
+  <body class="project-page">
+    <header class="topbar">
+      <a class="wordmark" href="./" aria-label="L04 Catch 首页"><span class="mark">L4</span><span>LOCO<span class="wordmark-light">LAB</span></span></a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="#approach">算法架构</a>
+        <a href="#playground" class="nav-play"><span class="play-glyph">▶</span> 进入 Play</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <video class="hero-film" autoplay muted loop playsinline poster="assets/videos/student095_v8_D016m_poster.jpg" aria-label="L04 Student 095 测试集直传接球与同步深度示例">
+          <source src="assets/videos/student095_v8_D016m_rgbd.mp4" type="video/mp4">
+        </video>
+        <div class="hero-copy">
+          <p class="eyebrow">L04 · 视觉驱动的全身控制</p>
+          <h1>L04<br>视觉接球</h1>
+          <p class="hero-deck">看见来球，调整全身，完成接球。<br>从真实深度输入，到物理仿真动作。</p>
+          <div class="hero-actions">
+            <a class="button button-lime" href="#playground">进入接球实验 <span>↗</span></a>
+            <a class="text-link" href="#vision-loop">查看视觉闭环 <span>↓</span></a>
+          </div>
+        </div>
+        <div class="hero-caption"><span>Isaac Lab · D016m 测试案例 · 单回合示例</span><button id="hero-toggle" type="button" aria-label="暂停首屏视频" title="暂停视频">暂停</button></div>
+      </section>
+
+
+      <section class="vision-loop-band" id="vision-loop">
+        <div class="vision-loop-inner">
+          <div class="vision-loop-heading"><div><p class="eyebrow">01 / 视觉闭环 · 真实同步录制</p><h2>RGB 画面与深度输入，<br>来自同一时刻。</h2></div><p>左侧深度窗取自 Student 095 实际推理输入的同步录制，不是后期绘制。切换直传与击地案例，观察来球如何进入视野并被接住。</p></div>
+          <div class="vision-loop-layout">
+            <figure class="vision-loop-media">
+              <video id="vision-loop-video" autoplay muted loop playsinline poster="assets/videos/student095_v8_D016m_poster.jpg" aria-label="Student 095 测试集直传案例 RGB 画面及同步深度输入">
+                <source src="assets/videos/student095_v8_D016m_rgbd.mp4" type="video/mp4">
+              </video>
+              <figcaption><span id="vision-loop-caption">STUDENT 095 · MODEL 325 · D016m / TEST</span><span>RGB + SYNC DEPTH</span></figcaption>
+            </figure>
+            <div class="vision-loop-details">
+              <div class="vision-mode-tabs" role="tablist" aria-label="视觉案例类型"><button type="button" id="vision-tab-direct" role="tab" aria-controls="vision-loop-case-content" aria-selected="true" data-vision-case="direct">直传 <span>D016m</span></button><button type="button" id="vision-tab-bounce" role="tab" aria-controls="vision-loop-case-content" aria-selected="false" data-vision-case="bounce" tabindex="-1">击地 <span>B028p</span></button><button type="button" id="vision-tab-directAlt" role="tab" aria-controls="vision-loop-case-content" aria-selected="false" data-vision-case="directAlt" tabindex="-1">直传 <span>D061p</span></button><button type="button" id="vision-tab-bounceAlt" role="tab" aria-controls="vision-loop-case-content" aria-selected="false" data-vision-case="bounceAlt" tabindex="-1">击地 <span>B103m</span></button></div>
+              <div id="vision-loop-case-content" role="tabpanel" aria-labelledby="vision-tab-direct">
+              <p class="vision-case-kicker" id="vision-case-kicker">TEST · DIRECT PASS</p>
+              <h3 id="vision-case-title">直传接球</h3>
+              <p class="vision-case-copy" id="vision-case-copy">从来球接近、双手调整到持球稳定，真实 RGB 与两帧深度同步记录。</p>
+              <div class="vision-case-metrics"><div><strong id="vision-case-hold">1.48 s</strong><span>稳定保持</span></div></div>
+              </div>
+              <a class="vision-full-link" href="assets/videos/student095_curated_v8_720p.mp4" target="_blank" rel="noopener">播放完整 8 回合精选 <span>4 直传 · 4 击地 · 720p ↗</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="method-band" id="approach"><div class="project-section">
+        <div class="project-heading"><div><p class="eyebrow">02 / 算法架构</p><h2>看见来球，<br>全身协同接球。</h2></div><p>从接球示范到传感器驱动的全身动作。</p></div>
+        <div class="architecture-toolbar"><span><i class="arch-dot arch-dot-train"></i>学习流程 <i class="arch-dot arch-dot-run"></i>在线控制</span><button id="expand-architecture" type="button" title="放大架构图" aria-label="放大算法架构图">展开架构 ↗</button></div>
+        <div class="architecture" id="architecture-figure" role="img" aria-label="接球策略学习流程：从示范动作学习接球策略，在线根据深度画面、机器人状态和来球模式生成全身动作">
+          <div class="arch-topline"><span>接球策略</span><span>示范学习 → 感知 → 全身动作</span></div>
+          <div class="architecture-lane training-lane"><div class="lane-name"><span class="lane-index">01</span><strong>学习流程</strong><span>示范 → 策略</span></div><div class="flow-node node-data"><small>接球示范</small><strong>多样来球轨迹</strong><span>直传与击地</span></div><span class="flow-arrow" aria-hidden="true">→</span><div class="flow-node node-teacher"><small>示范策略</small><strong>全身接球动作</strong><span>身体与双手协同</span></div><span class="flow-arrow" aria-hidden="true">→</span><div class="flow-node node-student"><small>接球策略</small><strong>视觉控制</strong><span>深度与机器人状态</span></div></div>
+          <div class="arch-boundary"><span></span><b>在线控制使用机器人传感器</b><span></span></div>
+          <div class="architecture-lane inference-lane"><div class="lane-name"><span class="lane-index">02</span><strong>在线控制</strong><span>感知 → 动作</span></div><div class="sensor-stack"><div class="flow-node node-vision"><small>视觉</small><strong>深度画面</strong><span>观察来球与环境</span></div><div class="flow-node node-proprio"><small>身体状态</small><strong>机器人状态</strong><span>姿态与关节运动</span></div><div class="flow-node node-command"><small>来球信息</small><strong>来球模式</strong><span>直传 / 击地反弹</span></div></div><span class="flow-arrow" aria-hidden="true">→</span><div class="encoder-stack"><div class="flow-node node-cnn"><small>视觉特征</small><strong>视觉编码</strong><span>理解深度画面</span></div><div class="flow-node node-mlp"><small>身体特征</small><strong>状态编码</strong><span>结合机器人状态</span></div></div><span class="flow-arrow" aria-hidden="true">→</span><div class="flow-node node-gru"><small>时序策略</small><strong>动作决策</strong><span>融合感知与来球信息</span></div><span class="flow-arrow" aria-hidden="true">→</span><div class="flow-node node-action"><small>全身动作</small><strong>协调接球</strong><span>身体与双手响应</span></div></div>
+          <div class="architecture-feedback"><span>感知与动作持续更新</span><span aria-hidden="true">←</span><span>在线仿真演示</span></div>
+          <div class="arch-legend"><span><i class="legend-chip legend-train"></i>学习流程</span><span><i class="legend-chip legend-input"></i>传感器输入</span><span><i class="legend-chip legend-policy"></i>动作决策</span><span><i class="legend-chip legend-action"></i>全身响应</span></div>
+        </div>
+      </div></section>
+
+      <section class="project-section playground-section" id="playground">
+        <div class="project-heading"><div><p class="eyebrow">03 / 接球实验</p><h2>一次来球，一次全身反应。</h2></div><p id="play-mode-note">精选 Isaac Sim 录制案例。按来球类型切换回合，观察双手、身体和深度视觉的协同。</p></div>
+        <div class="playground-toolbar"><div class="playground-tabs" role="tablist" aria-label="演示模式"><button type="button" id="tab-replay" role="tab" aria-selected="true" aria-controls="play-panel" data-play-mode="replay">录制案例</button><button type="button" id="tab-live" role="tab" aria-selected="false" aria-controls="play-panel" tabindex="-1" data-play-mode="live">在线实验 <span>预览</span></button></div><a id="open-play-page" href="play/" target="_blank" rel="noopener" title="独立打开当前演示">独立打开 ↗</a></div>
+        <div class="playground-stage" id="play-panel" role="tabpanel" aria-labelledby="tab-replay"></div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer"><a class="wordmark" href="./"><span class="mark">L4</span><span>LOCO<span class="wordmark-light">LAB</span></span></a><span>几何设计 · 策略训练 · 视觉闭环 · 仿真验证</span><a href="#playground">接球实验 ↗</a></footer>
+    <dialog id="architecture-dialog" aria-labelledby="architecture-title"><div class="diagram-dialog-heading"><h2 id="architecture-title">L04 视觉接球 · 算法架构</h2><button type="button" id="close-architecture" aria-label="关闭架构图" title="关闭">×</button></div><div id="architecture-expanded"></div><p class="figure-note">Teacher 特权输入仅用于训练；Student 推理仅使用视觉、本体历史和来球类型。</p></dialog>
+    <script src="home.js?v=14" defer></script>
+  </body>
+</html>

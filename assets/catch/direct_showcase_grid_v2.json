@@ -1,0 +1,326 @@
+{
+  "schema": 1,
+  "mode": "direct",
+  "status": "visual_v2_screened_hold_ge_1s",
+  "policy": "Student095@325",
+  "axes": {
+    "position": [
+      "right",
+      "center",
+      "left"
+    ],
+    "height": [
+      "low",
+      "middle",
+      "high"
+    ]
+  },
+  "entries": [
+    {
+      "cell": [
+        0,
+        0
+      ],
+      "screenId": "rl_r12_102",
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.385463517371176,
+          -0.06949418790667411,
+          0.7851553100573601
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ]
+      },
+      "measured": {
+        "preTouchBallYawFrameM": [
+          0.3991,
+          -0.1219,
+          0.931
+        ],
+        "bestHoldS": 1.44
+      }
+    },
+    {
+      "cell": [
+        0,
+        1
+      ],
+      "screenId": "f_r18_mid",
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.527834674229441,
+          -0.23689734520534012,
+          0.9866301547294083
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ]
+      },
+      "measured": {
+        "preTouchBallYawFrameM": [
+          0.4526,
+          -0.1841,
+          1.0686
+        ],
+        "bestHoldS": 1.56
+      }
+    },
+    {
+      "cell": [
+        0,
+        2
+      ],
+      "screenId": "f_r18_high",
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.65932448691016,
+          -0.242532388469356,
+          1.2090243969425956
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ]
+      },
+      "measured": {
+        "preTouchBallYawFrameM": [
+          0.4027,
+          -0.1864,
+          1.1532
+        ],
+        "bestHoldS": 1.76
+      }
+    },
+    {
+      "cell": [
+        1,
+        0
+      ],
+      "screenId": "f_c_l100",
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.348269952372841,
+          0.25136134582099245,
+          0.751625964408411
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ]
+      },
+      "measured": {
+        "preTouchBallYawFrameM": [
+          0.521,
+          0.0013,
+          0.9793
+        ],
+        "bestHoldS": 1.52
+      }
+    },
+    {
+      "cell": [
+        1,
+        1
+      ],
+      "screenId": "f_c14_mid",
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.526715179275859,
+          0.259748026521314,
+          0.9871503886845703
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ]
+      },
+      "measured": {
+        "preTouchBallYawFrameM": [
+          0.453,
+          0.0046,
+          1.0688
+        ],
+        "bestHoldS": 1.62
+      }
+    },
+    {
+      "cell": [
+        1,
+        2
+      ],
+      "screenId": "ch_cm3_122",
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.661830493830789,
+          0.18130858663633856,
+          1.208022456554406
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ]
+      },
+      "measured": {
+        "preTouchBallYawFrameM": [
+          0.4018,
+          -0.0253,
+          1.1527
+        ],
+        "bestHoldS": 1.74
+      }
+    },
+    {
+      "cell": [
+        2,
+        0
+      ],
+      "screenId": "ll_l10_102",
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.358703052934564,
+          0.5193521516172449,
+          0.7994313810955499
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ]
+      },
+      "measured": {
+        "preTouchBallYawFrameM": [
+          0.4098,
+          0.1136,
+          0.9367
+        ],
+        "bestHoldS": 1.52
+      }
+    },
+    {
+      "cell": [
+        2,
+        1
+      ],
+      "screenId": "f_l18_mid",
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.477613408959281,
+          0.7496257162441968,
+          1.0101129776093656
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ]
+      },
+      "measured": {
+        "preTouchBallYawFrameM": [
+          0.4717,
+          0.1907,
+          1.0776
+        ],
+        "bestHoldS": 1.22
+      }
+    },
+    {
+      "cell": [
+        2,
+        2
+      ],
+      "screenId": "lh_l14_118",
+      "preset": {
+        "clip": "batch_D007m",
+        "mode": "direct",
+        "position_yaw_frame_m": [
+          2.55325,
+          -0.09415,
+          1.40662
+        ],
+        "velocity_yaw_frame_m_s": [
+          -5.572815760325373,
+          0.6513789144041864,
+          1.1327601737961805
+        ],
+        "angular_velocity_yaw_frame_rad_s": [
+          0,
+          0,
+          0
+        ]
+      },
+      "measured": {
+        "preTouchBallYawFrameM": [
+          0.4356,
+          0.1534,
+          1.1241
+        ],
+        "bestHoldS": 1.26
+      }
+    }
+  ]
+}
